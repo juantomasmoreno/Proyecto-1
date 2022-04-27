@@ -7,7 +7,7 @@ Created on Wed Apr  6 08:35:48 2022
 
 import csv
 import os
-import pyplot as plt
+import matplotlib.pyplot as plt
 
 
 class Jugador:
