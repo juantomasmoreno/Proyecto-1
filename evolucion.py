@@ -65,9 +65,11 @@ class Clase:
     def buscar(self):
         texto = ''
         n = 1
+        i = 1
         dic = {}
-        while len(texto) < 3 or not dic:
-            texto = st.text_input('Jugadores', '¿A quién buscas?: ', key=1).lower()
+        while len(texto) < 3 or not in dic:
+            texto = st.text_input('Jugadores', '¿A quién buscas?: ', key=i).lower()
+            i += 1
             if len(texto) < 3:
                 st.caption('Introduce más carácteres en la búsqueda')
             else:
@@ -86,7 +88,7 @@ class Clase:
         elec = 0
         while elec < 1 or elec > len(dic):
             try:
-                elec = int(st.text_input('Escribe el número', 'Elige un jugador: ', key=2))
+                elec = int(st.text_input('Escribe el número', 'Elige un jugador: ', key='a'))
             except:
                 elec = 0
         return dic[elec]
