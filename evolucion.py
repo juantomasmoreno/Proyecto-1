@@ -8,6 +8,7 @@ Created on Wed Apr  6 08:35:48 2022
 import csv
 import os
 import matplotlib.pyplot as plt
+import streamlit as st
 
 
 class Jugador:
@@ -105,8 +106,11 @@ class Clase:
         plt.grid(axis='y')
         plt.title(f'Evolución de {x.nCorto}')
         plt.plot(x.fifa,x.media)
+        
 c=Clase()
 c.cargar_datos('Career_Mode_FIFA.csv')
+st.title('FIFAFURBO!')
+st.write('Aquí podrás analizar la evolución del jugador que prefieras.')
 jugador=c.buscar() 
 c.grafica_media(jugador)
 
