@@ -67,7 +67,7 @@ class Clase:
         n = 1
         i = 1
         dic = {}
-        while len(texto) < 3 or not in dic:
+        while len(texto) < 3 or not dic:
             texto = st.text_input('Jugadores', '¿A quién buscas?: ', key=i).lower()
             i += 1
             if len(texto) < 3:
@@ -86,9 +86,11 @@ class Clase:
                     st.caption('No hay ningún jugador con esa búsqueda')
                     texto = ''
         elec = 0
+        j = 1000000
         while elec < 1 or elec > len(dic):
             try:
-                elec = int(st.text_input('Escribe el número', 'Elige un jugador: ', key='a'))
+                elec = int(st.text_input('Escribe el número', 'Elige un jugador: ', key=j))
+                j += 1
             except:
                 elec = 0
         return dic[elec]
