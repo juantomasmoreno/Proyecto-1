@@ -90,7 +90,7 @@ class Clase:
                     elec = int(st.text_input('Escribe el número de tu jugador', key=3))
                 except:
                     elec = 0
-            return dic[elec]
+                return dic[elec]
         
     def grafica_media(self,jugador):
         x=self.jugadores[jugador]
