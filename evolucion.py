@@ -84,7 +84,7 @@ class Clase:
             if not dic:
                 st.caption('No hay ningún jugador con esa búsqueda')
                 texto = ''
-    if len(dic.values)>0:           
+        if len(dic.values)>0:           
             while elec < 1 or elec > len(dic):
                 try:
                     elec = int(st.text_input('Escribe el número de tu jugador', key=3))
