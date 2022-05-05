@@ -68,7 +68,7 @@ class Clase:
         i = 1
         dic = {}
         while len(texto) < 3 or not dic:
-            texto = st.text_input('Jugadores', '¿A quién buscas?: ', key=i).lower()
+            texto = st.text_input('¿A quién buscas?', key=i).lower()
             i += 1
             if len(texto) < 3:
                 st.caption('Introduce más carácteres en la búsqueda')
