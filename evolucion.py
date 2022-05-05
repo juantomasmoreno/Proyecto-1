@@ -72,12 +72,12 @@ class Clase:
         if len(texto) > 3:
             for ide,jugador in self.jugadores.items():
                 if texto in jugador.nombre.lower().split(): 
-                    st.write(f'{n} {jugador.nombre}')
+                    st.caption(f'{n} {jugador.nombre}')
                     dic[n] = ide
                     n += 1
                     elec = 0
                 elif texto in jugador.nCorto.lower().split():
-                    st.write(f'{n} {jugador.nCorto}')
+                    st.caption(f'{n} {jugador.nCorto}')
                     dic[n] = ide
                     n += 1
                     elec = 0
