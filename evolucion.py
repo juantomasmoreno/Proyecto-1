@@ -64,13 +64,13 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas?', input('¿A quién buscas? '), key=1).lower()
+        texto = st.text_input('¿A quién buscas?', 'Leo Messi', key=1).lower()
         n = 1
         i = 2
         dic = {}
         while len(texto) < 3 or not dic:
             st.caption('Introduce más carácteres en la búsqueda')
-            texto = st.text_input('¿A quién buscas?', input('¿A quién buscas? '), key=i).lower()
+            texto = st.text_input('¿A quién buscas?', 'Leo Messi', key=i).lower()
             i += 1
         for ide,jugador in self.jugadores.items():
             if texto in jugador.nombre.lower().split(): 
