@@ -67,6 +67,7 @@ class Clase:
         texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)', 'Leo Messi', key=1).lower()
         n = 1
         i = 2
+        elec = 3
         dic = {}
         if len(texto) > 3:
             for ide,jugador in self.jugadores.items():
@@ -74,14 +75,15 @@ class Clase:
                     st.write(f'{n} {jugador.nombre}')
                     dic[n] = ide
                     n += 1
+                    elec = 0
                 elif texto in jugador.nCorto.lower().split():
                     st.write(f'{n} {jugador.nCorto}')
                     dic[n] = ide
                     n += 1
+                    elec = 0
             if not dic:
                 st.caption('No hay ningún jugador con esa búsqueda')
                 texto = ''
-        elec = 0
         while elec < 1 or elec > len(dic):
             try:
                 elec = int(st.text_input('Escribe el número de tu jugador', key=3))
