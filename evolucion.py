@@ -64,7 +64,7 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)', key=1).lower()
+        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','', key=1).lower()
         n = 1
         i = 2
         elec = 3
