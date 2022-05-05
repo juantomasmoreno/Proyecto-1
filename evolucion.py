@@ -94,10 +94,6 @@ class Clase:
         
     def grafica_media(self,jugador):
         x=self.jugadores[jugador]
-        plt.grid(axis='x')
-        plt.grid(axis='y')
-        plt.title(f'Evolución de {x.nCorto}')
-        plt.plot(x.fifa,x.media)
         fig, ax = plt.subplots()
         ax.plot(x.fifa, x.media)
         st.pyplot(fig)
@@ -107,6 +103,7 @@ c.cargar_datos('Career_Mode_FIFA.csv')
 st.title('FIFAFURBO!')
 st.header('Aquí podrás analizar la evolución del jugador que prefieras.')
 jugador=c.buscar() 
+st.header('Esta es la evolución de la media de tu jugador (ten paciencia...)')
 c.grafica_media(jugador)
 
 
