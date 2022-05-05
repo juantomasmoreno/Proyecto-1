@@ -64,23 +64,20 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas?', 'Leo Messi', key=1).lower()
+        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)', 'Leo Messi', key=1).lower()
         n = 1
         i = 2
         dic = {}
-        while len(texto) < 3 or not dic:
-            st.caption('Introduce más carácteres en la búsqueda')
-            texto = st.text_input('¿A quién buscas?', 'Leo Messi', key=i).lower()
-            i += 1
-        for ide,jugador in self.jugadores.items():
-            if texto in jugador.nombre.lower().split(): 
-                st.write(f'{n} {jugador.nombre}')
-                dic[n] = ide
-                n += 1
-            elif texto in jugador.nCorto.lower().split():
-                st.write(f'{n} {jugador.nCorto}')
-                dic[n] = ide
-                n += 1
+        if len(texto) > 3:
+            for ide,jugador in self.jugadores.items():
+                if texto in jugador.nombre.lower().split(): 
+                    st.write(f'{n} {jugador.nombre}')
+                    dic[n] = ide
+                    n += 1
+                elif texto in jugador.nCorto.lower().split():
+                    st.write(f'{n} {jugador.nCorto}')
+                    dic[n] = ide
+                    n += 1
         if not dic:
             st.caption('No hay ningún jugador con esa búsqueda')
             texto = ''
