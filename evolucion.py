@@ -78,7 +78,7 @@ class Clase:
                     st.write(f'{n} {jugador.nCorto}')
                     dic[n] = ide
                     n += 1
-            if not in dic:
+            if not dic:
                 st.caption('No hay ningún jugador con esa búsqueda')
                 texto = ''
         elec = 0
