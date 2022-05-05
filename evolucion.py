@@ -84,12 +84,13 @@ class Clase:
             if not dic:
                 st.caption('No hay ningún jugador con esa búsqueda')
                 texto = ''
-        while elec < 1 or elec > len(dic):
-            try:
-                elec = int(st.text_input('Escribe el número de tu jugador', key=3))
-            except:
-                elec = 0
-        return dic[elec]
+    if len(dic.values)>0:           
+            while elec < 1 or elec > len(dic):
+                try:
+                    elec = int(st.text_input('Escribe el número de tu jugador', key=3))
+                except:
+                    elec = 0
+            return dic[elec]
         
     def grafica_media(self,jugador):
         x=self.jugadores[jugador]
