@@ -63,34 +63,28 @@ class Clase:
                     f'Directorio actual:{os.getcwd()}')
    
     def buscar(self):
-        texto = ''
+        texto = st.text_input('¿A quién buscas?').lower()
         n = 1
-        i = 1
         dic = {}
         while len(texto) < 3 or not dic:
-            texto = st.text_input('¿A quién buscas?', key=i).lower()
-            i += 1
-            if len(texto) < 3:
-                st.caption('Introduce más carácteres en la búsqueda')
-            else:
-                for ide,jugador in self.jugadores.items():
-                    if texto in jugador.nombre.lower().split(): 
-                        st.write(f'{n} {jugador.nombre}')
-                        dic[n] = ide
-                        n += 1
-                    elif texto in jugador.nCorto.lower().split():
-                        st.write(f'{n} {jugador.nCorto}')
-                        dic[n] = ide
-                        n += 1
-                if not dic:
-                    st.caption('No hay ningún jugador con esa búsqueda')
-                    texto = ''
+            st.caption('Introduce más carácteres en la búsqueda')
+            texto = st.text_input('¿A quién buscas?').lower()
+        for ide,jugador in self.jugadores.items():
+            if texto in jugador.nombre.lower().split(): 
+                st.write(f'{n} {jugador.nombre}')
+                dic[n] = ide
+                n += 1
+            elif texto in jugador.nCorto.lower().split():
+                st.write(f'{n} {jugador.nCorto}')
+                dic[n] = ide
+                n += 1
+        if not dic:
+            st.caption('No hay ningún jugador con esa búsqueda')
+            texto = ''
         elec = 0
-        j = 1000000
         while elec < 1 or elec > len(dic):
             try:
                 elec = int(st.text_input('Escribe el número', 'Elige un jugador: ', key=j))
-                j += 1
             except:
                 elec = 0
         return dic[elec]
