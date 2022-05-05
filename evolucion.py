@@ -63,12 +63,14 @@ class Clase:
                     f'Directorio actual:{os.getcwd()}')
    
     def buscar(self):
-        texto = st.text_input('¿A quién buscas?', key=1).lower()
+        a = input('¿A quién buscas?: ')
+        texto = st.text_input('¿A quién buscas?', a, key=1).lower()
         n = 1
         dic = {}
-        while len(texto) < 3 or not dic:
+        while len(a) < 3 or not dic:
             st.caption('Introduce más carácteres en la búsqueda')
-            texto = st.text_input('¿A quién buscas?', key=2).lower()
+            a = input('¿A quién buscas?: ')
+            texto = st.text_input('¿A quién buscas?', a, key=2).lower()
         for ide,jugador in self.jugadores.items():
             if texto in jugador.nombre.lower().split(): 
                 st.write(f'{n} {jugador.nombre}')
