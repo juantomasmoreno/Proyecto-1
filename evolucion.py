@@ -98,6 +98,9 @@ class Clase:
         plt.grid(axis='y')
         plt.title(f'Evolución de {x.nCorto}')
         plt.plot(x.fifa,x.media)
+        fig, ax = plt.subplots()
+        ax.plot(x.fifa, x.media)
+        st.pyplot(fig)
         
 c=Clase()
 c.cargar_datos('Career_Mode_FIFA.csv')
