@@ -60,7 +60,7 @@ class Clase:
         dic = {}   
         for ide,jugador in self.jugadores.items():
             if texto in jugador.pais.lower() and jugador.pais not in dic.values(): 
-                print(f'{n} {jugador.pais}')
+                st.caption(f'{n} {jugador.pais}')
                 dic[n] = jugador.pais
                 n += 1
         if len(dic)>0:    
@@ -82,7 +82,7 @@ class Clase:
             lista=jugador.posicion.lower().split(',')
             for i in lista:
                 if texto==i and i not in dic.values(): 
-                    print(f'{n} {i}')
+                    st.caption(f'{n} {i}')
                     dic[n] = i
                     n += 1
         if len(dic)>0:        
@@ -103,7 +103,7 @@ class Clase:
         st.text_input('¿Qué posición buscas?','', key=3).lower()
         for ide,jugador in self.jugadores.items():
             if texto in jugador.liga.lower() and jugador.liga not in dic.values(): 
-                print(f'{n} {jugador.liga}')
+                st.caption(f'{n} {jugador.liga}')
                 dic[n] = jugador.liga
                 n += 1
         if len(dic)>0:        
