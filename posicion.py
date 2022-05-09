@@ -66,7 +66,7 @@ class Clase:
         if len(dic)>0:    
             elec = 0
             try:
-                elec = int(st.text_input('Elige una nacionalidad',0, key=1))
+                elec = int(st.text_input('Elige una nacionalidad (escribe el número)',0, key=1))
             except:
                 elec = 0
             if elec==0:    
@@ -76,7 +76,7 @@ class Clase:
         
     def buscar_pos(self):
         texto = ''
-        texto = st.text_input('Elige una posición','', key=2).lower()
+        texto = st.text_input('Elige una posición (escribe la abreviatura inglesa: por ejemplo, portero es GK)','', key=2).lower()
         n = 1
         dic = {}      
         return texto
@@ -93,7 +93,7 @@ class Clase:
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(st.text_input('Elige una liga',0, key=3))
+                elec = int(st.text_input('Elige una liga (escribe el número)',0, key=3))
             except:
                 elec = 0
             if elec==0:    
