@@ -88,7 +88,7 @@ class Clase:
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(st.text_input('Elige una posición',0, key=2))
+                elec = int(st.text_input('Elige una posición',1, key=2))
             except:
                 elec = 0
             if elec==0:    
@@ -134,6 +134,7 @@ class Clase:
                 lista.append((jugador.nombre,jugador.media))
             elif nat=='' and liga==jugador.liga and pos=='' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
+        st.caption('Cargando...')
         for i in lista:
             cadena = f'{i[0]}: media de {i[1]}'
             st.subheader(cadena)
