@@ -94,7 +94,8 @@ class Clase:
         
     def grafica_media(self,jugador):
         x = self.jugadores[jugador]
-        fig = plt.plot(x.fifa, x.media)
+        fig, ax = plt.subplots()
+        ax.plot(x.fifa, x.media)
         st.pyplot(fig)
 
         
