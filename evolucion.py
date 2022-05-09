@@ -87,7 +87,7 @@ class Clase:
         if len(dic)>0:           
             while elec < 1 or elec > len(dic):
                 try:
-                    elec = int(st.text_input('Escribe el número de tu jugador',0, key=3))
+                    elec = int(st.text_input('Escribe el número de tu jugador',1, key=3))
                 except:
                     elec = 0
                 return dic[elec]
