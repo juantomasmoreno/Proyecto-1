@@ -87,7 +87,7 @@ class Clase:
         if len(dic)>0:           
             while elec < 1 or elec > len(dic):
                 try:
-                    elec = int(st.text_input('Escribe el número de tu jugador','', key=3))
+                    elec = int(st.text_input('Escribe el número de tu jugador',1, key=3))
                 except:
                     elec = 0
                 return dic[elec]
@@ -106,6 +106,7 @@ if __name__ == '__main__':
     st.title('FIFAFURBO!')
     st.header('Aquí podrás analizar la evolución del jugador que prefieras.')
     jugador=c.buscar()
+    st.caption('Por defecto siempre se selecciona el primero de la lista, puedes cambiar el número cuando quieras')
     if jugador != '':
         c.grafica_media(jugador)
 
