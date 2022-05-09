@@ -99,6 +99,7 @@ class Clase:
             ax.plot(x.fifa, x.media)
             st.pyplot(fig)
         st.success('¡Aquí la tienes!')
+        st.header('Esta es la evolución de la media de tu jugador')
         
 
         
@@ -108,7 +109,6 @@ if __name__ == '__main__':
     st.title('FIFAFURBO!')
     st.header('Aquí podrás analizar la evolución del jugador que prefieras.')
     jugador=c.buscar() 
-    st.header('Esta es la evolución de la media de tu jugador (ten paciencia...)')
     c.grafica_media(jugador)
 
 
