@@ -64,7 +64,7 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','Messi', key=1).lower()
+        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','', key=1).lower()
         n = 1
         i = 2
         elec = 3
@@ -91,7 +91,7 @@ class Clase:
                 except:
                     elec = 0
                 return dic[elec]
-        
+        return texto
     def grafica_media(self,jugador):
         with st.spinner('Ahora aparecerá la gráfica (ten paciencia...)'):
             x = self.jugadores[jugador]
@@ -100,15 +100,14 @@ class Clase:
             st.pyplot(fig)
         st.success('¡Aquí la tienes!')
         st.header('Esta es la evolución de la media de tu jugador')
-        
-
-        
+                
 if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('Career_Mode_FIFA.csv')
     st.title('FIFAFURBO!')
     st.header('Aquí podrás analizar la evolución del jugador que prefieras.')
-    jugador=c.buscar() 
-    c.grafica_media(jugador)
+    jugador=c.buscar()
+    if jugador != '':
+        c.grafica_media(jugador)
 
 
