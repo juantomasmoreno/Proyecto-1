@@ -78,22 +78,13 @@ class Clase:
         texto = ''
         n = 1
         dic = {}
-        st.text_input('¿Qué posición buscas?','', key=2).lower()
+        st.text_input('Elige una posición','', key=2).lower()
         for ide,jugador in self.jugadores.items():
             lista=jugador.posicion.lower().split(',')
             if texto==lista[0] and lista[0] not in dic.values(): 
                 st.caption(f'{n} {i}')
                 dic[n] = i
                 n += 1
-        if len(dic)>0:        
-            elec = 0
-            try:
-                elec = int(st.text_input('Elige una posición',1, key=3))
-            except:
-                elec = 0
-            if elec==0:    
-                return texto        
-            return dic[elec]
         return texto
     
     def buscar_liga(self):
@@ -108,7 +99,7 @@ class Clase:
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(st.text_input('Elige una liga',0, key=4))
+                elec = int(st.text_input('Elige una liga',0, key=3))
             except:
                 elec = 0
             if elec==0:    
@@ -119,15 +110,15 @@ class Clase:
     def jugadores_pos_nat(self,nat,pos,liga):
         lista=[]
         for ide,jugador in self.jugadores.items():
-            if nat==jugador.pais and liga==jugador.liga and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
+            if nat==jugador.pais and liga==jugador.liga and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
             elif nat==jugador.pais and liga==jugador.liga and pos == '' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
-            elif nat=='' and liga==jugador.liga and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
+            elif nat=='' and liga==jugador.liga and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media)) 
-            elif nat=='' and liga=='' and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
+            elif nat=='' and liga=='' and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
-            elif nat==jugador.pais and liga=='' and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
+            elif nat==jugador.pais and liga=='' and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
             elif nat==jugador.pais and liga=='' and pos=='' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
