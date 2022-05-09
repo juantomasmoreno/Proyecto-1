@@ -1,2 +1,1 @@
 matplotlib==3.3.4
-PIL==3.3.4
