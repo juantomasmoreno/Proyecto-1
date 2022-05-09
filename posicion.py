@@ -78,17 +78,17 @@ class Clase:
         texto = ''
         n = 1
         dic = {}
+        st.text_input('¿Qué posición buscas?','', key=2).lower()
         for ide,jugador in self.jugadores.items():
             lista=jugador.posicion.lower().split(',')
-            for i in lista:
-                if texto==i and i not in dic.values(): 
-                    st.caption(f'{n} {i}')
-                    dic[n] = i
-                    n += 1
+            if texto==i[0] and i not in dic.values(): 
+                st.caption(f'{n} {i}')
+                dic[n] = i
+                n += 1
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(st.text_input('Elige una posición',1, key=2))
+                elec = int(st.text_input('Elige una posición',1, key=3))
             except:
                 elec = 0
             if elec==0:    
@@ -100,7 +100,6 @@ class Clase:
         texto = ''
         n = 1
         dic = {}
-        st.text_input('¿Qué posición buscas?','', key=3).lower()
         for ide,jugador in self.jugadores.items():
             if texto in jugador.liga.lower() and jugador.liga not in dic.values(): 
                 st.caption(f'{n} {jugador.liga}')
