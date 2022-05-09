@@ -81,7 +81,7 @@ class Clase:
         st.text_input('¿Qué posición buscas?','', key=2).lower()
         for ide,jugador in self.jugadores.items():
             lista=jugador.posicion.lower().split(',')
-            if texto==lista[0] and i not in dic.values(): 
+            if texto==lista[0] and lista[0] not in dic.values(): 
                 st.caption(f'{n} {i}')
                 dic[n] = i
                 n += 1
