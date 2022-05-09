@@ -122,6 +122,8 @@ class Clase:
         for ide,jugador in self.jugadores.items():
             if nat==jugador.pais and liga==jugador.liga and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
+            elif nat==jugador.pais and liga==jugador.liga and pos == '' and len(lista)<11:
+                lista.append((jugador.nombre,jugador.media))
             elif nat=='' and liga==jugador.liga and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media)) 
             elif nat=='' and liga=='' and pos.lower() in jugador.posicion.lower().split(",") and len(lista)<11:
