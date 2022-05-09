@@ -93,9 +93,8 @@ class Clase:
                 return dic[elec]
         
     def grafica_media(self,jugador):
-        x=self.jugadores[jugador]
-        fig, ax = plt.subplots()
-        ax.plot(x.fifa, x.media)
+        x = self.jugadores[jugador]
+        fig = plt.plot(x.fifa, x.media)
         st.pyplot(fig)
 
         
