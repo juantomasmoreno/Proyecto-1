@@ -47,10 +47,10 @@ class Clase:
                     b, msg = self.nuevo_jugador(sofifa_id,long_name,player_positions,int(overall),potential,age,height_cm,club_name,league_name,league_level,nationality_name,preferred_foot,short_name)
                     if b:                 
                         leidos += 1
-                print ( f'{leidos} jugadores leidos correctamente')
+                print(f'{leidos} jugadores leidos correctamente')
                 return True, 'correcto'
         except Exception as ex:
-            print ( 'Error al leer fichero de datos. Excepcion de tipo '+
+            print('Error al leer fichero de datos. Excepcion de tipo '+
                     f'{type(ex).__name__}\nArgumentos:{ex.args}. \n'+
                     f'Directorio actual:{os.getcwd()}')
 
@@ -66,7 +66,7 @@ class Clase:
         if len(dic)>0:    
             elec = 0
             try:
-                elec = int(input('Elige una nacionalidad: '))
+                elec = int(st.text_input('Elige una nacionalidad',0, key=1))
             except:
                 elec = 0
             if elec==0:    
@@ -88,7 +88,7 @@ class Clase:
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(input('Elige una nacionalidad: '))
+                elec = int(st.text_input('Elige una posición',0, key=2))
             except:
                 elec = 0
             if elec==0:    
@@ -100,7 +100,7 @@ class Clase:
         texto = ''
         n = 1
         dic = {}
-        
+        st.text_input('¿Qué posición buscas?','', key=3).lower()
         for ide,jugador in self.jugadores.items():
             if texto in jugador.liga.lower() and jugador.liga not in dic.values(): 
                 print(f'{n} {jugador.liga}')
@@ -109,7 +109,7 @@ class Clase:
         if len(dic)>0:        
             elec = 0
             try:
-                elec = int(input('Elige una nacionalidad: '))
+                elec = int(st.text_input('Elige una liga',0, key=4))
             except:
                 elec = 0
             if elec==0:    
@@ -135,7 +135,7 @@ class Clase:
             elif nat=='' and liga==jugador.liga and pos=='' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
         for i in lista:
-            cadena = f'{i[0]}: {i[1]}'
+            cadena = f'{i[0]}: media de {i[1]}'
             st.subheader(cadena)
             
 if __name__ == '__main__':
