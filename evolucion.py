@@ -98,7 +98,8 @@ class Clase:
         ax.plot(x.fifa, x.media)
         st.pyplot(fig)
 
-if __name__ = '__main__':
+        
+if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('Career_Mode_FIFA.csv')
     st.title('FIFAFURBO!')
