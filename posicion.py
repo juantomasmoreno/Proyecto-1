@@ -76,15 +76,9 @@ class Clase:
         
     def buscar_pos(self):
         texto = ''
+        texto = st.text_input('Elige una posición','', key=2).lower()
         n = 1
-        dic = {}
-        st.text_input('Elige una posición','', key=2).lower()
-        for ide,jugador in self.jugadores.items():
-            lista=jugador.posicion.lower().split(',')
-            if texto==lista[0] and lista[0] not in dic.values(): 
-                st.caption(f'{n} {i}')
-                dic[n] = i
-                n += 1
+        dic = {}      
         return texto
     
     def buscar_liga(self):
@@ -124,7 +118,6 @@ class Clase:
                 lista.append((jugador.nombre,jugador.media))
             elif nat=='' and liga==jugador.liga and pos=='' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
-        st.caption('Cargando...')
         for i in lista:
             cadena = f'{i[0]}: media de {i[1]}'
             st.subheader(cadena)
