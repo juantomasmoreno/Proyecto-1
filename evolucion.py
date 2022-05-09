@@ -64,7 +64,7 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','messi', key=1).lower()
+        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','', key=1).lower()
         n = 1
         i = 2
         elec = 3
@@ -87,7 +87,7 @@ class Clase:
         if len(dic)>0:           
             while elec < 1 or elec > len(dic):
                 try:
-                    elec = int(st.text_input('Escribe el número de tu jugador',1, key=3))
+                    elec = int(st.text_input('Escribe el número de tu jugador',0, key=3))
                 except:
                     elec = 0
                 return dic[elec]
