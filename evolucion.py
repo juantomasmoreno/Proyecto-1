@@ -93,10 +93,13 @@ class Clase:
                 return dic[elec]
         
     def grafica_media(self,jugador):
-        x = self.jugadores[jugador]
-        fig, ax = plt.subplots()
-        ax.plot(x.fifa, x.media)
-        st.pyplot(fig)
+        with st.spinner('Ahora aparecerá la gráfica (ten paciencia...)'):
+            x = self.jugadores[jugador]
+            fig, ax = plt.subplots()
+            ax.plot(x.fifa, x.media)
+            st.pyplot(fig)
+        st.success('¡Aquí la tienes!')
+        
 
         
 if __name__ == '__main__':
