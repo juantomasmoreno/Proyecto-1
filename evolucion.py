@@ -94,8 +94,8 @@ class Clase:
         return texto
     def grafica_media(self,jugador):
         st.header('Esta es la evolución de la media de tu jugador')
-        st.subheader(x.nombre)
         x = self.jugadores[jugador]
+        st.subheader(x.nombre)
         fig, ax = plt.subplots()
         ax.plot(x.fifa, x.media)
         st.pyplot(fig)
