@@ -126,7 +126,6 @@ class Clase:
 if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('Fifa22.csv')
-    st.title('FIFAFURBO!')
     st.image('header.png')
     st.header('Aquí podrás filtrar los mejores jugadores por liga, nacionalidad o posición.')
     nat=c.buscar_nac()
