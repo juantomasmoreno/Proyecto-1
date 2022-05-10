@@ -104,7 +104,7 @@ class Clase:
 if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('Career_Mode_FIFA.csv')
-    st.title('FIFAFURBO!')
+    st.image('header.png')
     st.header('Aquí podrás analizar la evolución del jugador que prefieras.')
     jugador=c.buscar()
     st.caption('Por defecto siempre se selecciona el primero de la lista, puedes cambiar el número cuando quieras')
