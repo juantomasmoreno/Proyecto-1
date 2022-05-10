@@ -58,11 +58,11 @@ class Clase:
         texto = ''
         n = 1
         dic = {}   
-        for ide,jugador in self.jugadores.items():
-            if texto in jugador.pais.lower() and jugador.pais not in dic.values(): 
-                st.caption(f'{n} {jugador.pais}')
-                dic[n] = jugador.pais
-                n += 1
+        # for ide,jugador in self.jugadores.items():
+            # if texto in jugador.pais.lower() and jugador.pais not in dic.values(): 
+                # st.caption(f'{n} {jugador.pais}')
+                # dic[n] = jugador.pais
+                # n += 1
         if len(dic)>0:    
             elec = 0
             try:
@@ -85,11 +85,11 @@ class Clase:
         texto = ''
         n = 1
         dic = {}
-        for ide,jugador in self.jugadores.items():
-            if texto in jugador.liga.lower() and jugador.liga not in dic.values(): 
-                st.caption(f'{n} {jugador.liga}')
-                dic[n] = jugador.liga
-                n += 1
+        # for ide,jugador in self.jugadores.items():
+            # if texto in jugador.liga.lower() and jugador.liga not in dic.values(): 
+                # st.caption(f'{n} {jugador.liga}')
+                # dic[n] = jugador.liga
+                # n += 1
         if len(dic)>0:        
             elec = 0
             try:
