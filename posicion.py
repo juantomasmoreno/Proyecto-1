@@ -118,6 +118,7 @@ class Clase:
                 lista.append((jugador.nombre,jugador.media))
             elif nat=='' and liga==jugador.liga and pos=='' and len(lista)<11:
                 lista.append((jugador.nombre,jugador.media))
+        st.write('Estos son los mejores jugadores que cumplen tus requisitos:')
         for i in lista:
             cadena = f'{i[0]}: media de {i[1]}'
             st.subheader(cadena)
