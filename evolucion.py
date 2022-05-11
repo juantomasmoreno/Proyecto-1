@@ -72,7 +72,7 @@ class Clase:
         if len(texto) > 2:
             for ide,jugador in self.jugadores.items():
                 if texto in jugador.nombre.lower().split(): 
-                    st.caption(f'{n} {jugador.nombre}')
+                    st.caption(f'{n} {jugador.nombre} ({jugador.club[-1]})')
                     dic[n] = ide
                     n += 1
                     elec = 0
