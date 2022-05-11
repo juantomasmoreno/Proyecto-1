@@ -64,12 +64,12 @@ class Clase:
    
     def buscar(self):
         texto = ''
-        texto = st.text_input('¿A quién buscas? (mínimo 4 caracteres)','', key=1).lower()
+        texto = st.text_input('¿A quién buscas? (mínimo 3 caracteres)','', key=1).lower()
         n = 1
         i = 2
         elec = 3
         dic = {}
-        if len(texto) > 3:
+        if len(texto) > 2:
             for ide,jugador in self.jugadores.items():
                 if texto in jugador.nombre.lower().split(): 
                     st.caption(f'{n} {jugador.nombre}')
@@ -77,7 +77,7 @@ class Clase:
                     n += 1
                     elec = 0
                 elif texto in jugador.nCorto.lower().split():
-                    st.caption(f'{n} {jugador.nCorto}')
+                    st.caption(f'{n} {jugador.nCorto} ({jugador.club[-1]})')
                     dic[n] = ide
                     n += 1
                     elec = 0
