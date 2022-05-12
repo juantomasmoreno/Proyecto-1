@@ -122,7 +122,6 @@ class Clase:
         for i in lista:
             cadena = f'{i[0]} ({i[1]}): Media {i[2]}'
             st.subheader(cadena)
-            st.subheader(media)
             
 if __name__ == '__main__':
     c=Clase()
