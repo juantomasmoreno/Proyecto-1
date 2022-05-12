@@ -11,8 +11,8 @@ import streamlit as st
 
 st.image('header.png')
 df = pd.read_csv('Career_Mode_FIFA.csv' , delimiter= ';')
-liga = st.selectbox('How would you like to be contacted?',
-                   ('English Premier League', 'Spain Primera Division', 'Italian Serie A', 'German 1. Bundesliga', 'French Ligue 1'), 0)
+liga = st.selectbox('¿Qué liga quieres comprobar?',
+                   ('English Premier League', 'Spain Primera Division', 'Italian Serie A', 'German 1. Bundesliga', 'French Ligue 1'))
 fifa = st.slider('¿Qué FIFA quieres comprobar?', 15, 22, 15, 1)
 df1 = df.loc[(df['league_name'] == liga) & (df['FIFA']==fifa)]
 
@@ -22,4 +22,5 @@ plt.figure(figsize=(10,20))
 plt.grid(axis='x')
 plt.title(f'Valoracion media clubs {liga}  fifa {fifa}')
 plt.barh(y.index, y.values)
-plt.show()
+fig = plt.show()
+st.pyplot(fig)
