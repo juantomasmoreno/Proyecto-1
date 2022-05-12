@@ -120,7 +120,7 @@ class Clase:
                 lista.append((jugador.nombre, jugador.club, jugador.media))
         st.write('Estos son los mejores jugadores que cumplen tus requisitos:')
         for i in lista:
-            cadena = f'{i[0]} ({i[1]}): media de {i[2]}'
+            cadena = f'{i[0]} ({i[1]}): \nmedia de {i[2]}'
             st.subheader(cadena)
             
 if __name__ == '__main__':
