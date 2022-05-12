@@ -105,19 +105,19 @@ class Clase:
         lista=[]
         for ide,jugador in self.jugadores.items():
             if nat==jugador.pais and liga==jugador.liga and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
             elif nat==jugador.pais and liga==jugador.liga and pos == '' and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
             elif nat=='' and liga==jugador.liga and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media)) 
+                lista.append((jugador.nCorto, jugador.club, jugador.media)) 
             elif nat=='' and liga=='' and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
             elif nat==jugador.pais and liga=='' and pos.lower() == jugador.posicion.lower().split(",")[0] and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
             elif nat==jugador.pais and liga=='' and pos=='' and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
             elif nat=='' and liga==jugador.liga and pos=='' and len(lista)<11:
-                lista.append((jugador.nombre, jugador.club, jugador.media))
+                lista.append((jugador.nCorto, jugador.club, jugador.media))
         st.write('Estos son los mejores jugadores que cumplen tus requisitos:')
         for i in lista:
             cadena = f'{i[0]} ({i[1]}): Media {i[2]}'
