@@ -58,6 +58,6 @@ if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('tprueba.csv')
     # st.image('header.png')
-    st.header('Aquí podrás filtrar los mejores jugadores por liga, nacionalidad o posición.')
+    st.header('Aquí podrás encontrar tu próxima carrera universitaria.')
     uni = c.buscar_uni()
     st.caption(uni)
