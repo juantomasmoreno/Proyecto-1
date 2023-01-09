@@ -73,7 +73,7 @@ def buscar_uni(clase):
            
 if __name__ == '__main__':
     c=Clase()
-    c.cargar_datos('tprueba.csv')
+    c.cargar_datos('termometro_def.csv')
     # st.image('header.png')
     print('Aquí podrás encontrar tu próxima carrera universitaria.')
     uni = buscar_uni(c)
