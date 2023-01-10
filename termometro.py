@@ -66,8 +66,10 @@ def buscar_uni(clase):
                  opcion = st.selectbox('¿Quieres más información sobre algún grado? Escribe aquí su número', listainfo)
                  try:
                      grado=dic[int(opcion[0])]
-                     st.subheader(f'{grado.nombre},{grado.uni},{grado.uni_a},{grado.nota},{grado.plazas}')
-                     
+                     if grado.plazas != 0:
+                        st.subheader(f'{grado.nombre} en la {grado.uni}\nNota de corte: {grado.nota}\n{grado.plazas} plazas')
+                     else:
+                        st.subheader(f'{grado.nombre} en la {grado.uni}\nNota de corte: {grado.nota}')
                  except:
                      st.subheader('Vuelve a elegir')
                      
