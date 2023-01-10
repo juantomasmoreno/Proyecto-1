@@ -2,6 +2,7 @@
 
 import csv
 import os
+import streamlit as st
 
 
 class Grado:
@@ -42,11 +43,11 @@ class Clase:
 
 def buscar_uni(clase):
     texto = ''
-    texto = input('Elige que grado quieres buscar:').lower()
+    texto = st.text_input('Elige qué grado quieres buscar').lower()
     n = 1
     dic = {}
     if len(texto) < 3:
-        print('Introduce más carácteres en la búsqueda')
+        print('Cargando...')
     else:
         for grado in clase.carreras.values():
             if texto in grado.nombre.lower():
@@ -55,12 +56,12 @@ def buscar_uni(clase):
                 n += 1
         
         if not dic:
-            print('No hay ningún alumno con esa búsqueda')
+            print('No hemos encontrado ningún grado')
         else:    
             elec = 0
             if elec < 1 or elec > len(dic):
                  try:
-                     elec = int(input('Elige una universidad: '))
+                     elec = int(input('Elige una universidad (escribe su número)'))
                      grado=dic[elec]
                      print(f'{grado.nombre},{grado.uni},{grado.uni_a},{grado.nota},{grado.plazas}')
                      
@@ -75,6 +76,6 @@ if __name__ == '__main__':
     c=Clase()
     c.cargar_datos('termometro_def.csv')
     # st.image('header.png')
-    print('Aquí podrás encontrar tu próxima carrera universitaria.')
+    st.header('Aquí podrás encontrar tu próxima carrera universitaria.')
     uni = buscar_uni(c)
     
