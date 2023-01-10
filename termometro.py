@@ -43,30 +43,30 @@ class Clase:
 
 def buscar_uni(clase):
     texto = ''
-    texto = st.text_input('Elige qué grado quieres buscar').lower()
+    texto = st.text_input('¿Qué quieres buscar?').lower()
     n = 1
     dic = {}
     if len(texto) < 3:
-        print('Cargando...')
+        st.subheader('Cargando...')
     else:
         for grado in clase.carreras.values():
             if texto in grado.nombre.lower():
-                print(f'{n} {grado.nombre} ({grado.uni})')
+                st.subheader(f'{n} {grado.nombre} ({grado.uni})')
                 dic[n] = grado
                 n += 1
         
         if not dic:
-            print('No hemos encontrado ningún grado')
+            st.subheader('No hemos encontrado ningún grado')
         else:    
             elec = 0
             if elec < 1 or elec > len(dic):
                  try:
-                     elec = int(input('Elige una universidad (escribe su número)'))
+                     elec = int(st.text_input('Elige un grado (escribe su número)'))
                      grado=dic[elec]
-                     print(f'{grado.nombre},{grado.uni},{grado.uni_a},{grado.nota},{grado.plazas}')
+                     st.subheader(f'{grado.nombre},{grado.uni},{grado.uni_a},{grado.nota},{grado.plazas}')
                      
                  except:
-                     print('Vuelve a elegir')
+                     st.subheader('Vuelve a elegir')
                      
                  
         
