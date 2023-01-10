@@ -51,7 +51,7 @@ def buscar_uni(clase):
     else:
         for grado in clase.carreras.values():
             if texto in grado.nombre.lower():
-                st.subheader(f'{n} {grado.nombre} ({grado.uni})')
+                st.subheader(f'{n} {grado.nombre} - {grado.uni}')
                 dic[n] = grado
                 n += 1
         
