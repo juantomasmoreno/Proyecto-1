@@ -43,15 +43,15 @@ class Clase:
 
 def buscar_uni(clase):
     texto = ''
-    texto = st.text_input('¿Qué quieres buscar?').lower()
+    texto = st.text_input('¿Qué quieres estudiar?').lower()
     n = 1
     dic = {}
     if len(texto) < 3:
-        st.subheader('Cargando...')
+        st.caption('Mínimo 3 caracteres')
     else:
         for grado in clase.carreras.values():
             if texto in grado.nombre.lower():
-                st.subheader(f'{n} {grado.nombre} - {grado.uni}')
+                st.subheader(f'{n} - {grado.nombre} - {grado.uni}')
                 dic[n] = grado
                 n += 1
         
