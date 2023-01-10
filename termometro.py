@@ -64,12 +64,15 @@ def buscar_uni(clase):
             elec = 0
             if elec < 1 or elec > len(dic):
                  opcion = st.selectbox('¿Quieres más información sobre algún grado?', listainfo)
-                 opcion = opcion.split('-')
-                 grado=dic[int(opcion[0])]
-                 st.subheader(f'{grado.nombre} en la {grado.uni}')
-                 st.subheader(f'Nota de corte: {grado.nota}')
-                 if grado.plazas != 0:
-                    st.subheader(f'{grado.plazas} plazas')
+                 try:
+                     opcion = opcion.split('-')
+                     grado=dic[int(opcion[0])]
+                     st.subheader(f'{grado.nombre} en la {grado.uni}')
+                     st.subheader(f'Nota de corte: {grado.nota}')
+                     if grado.plazas != 0:
+                        st.subheader(f'{grado.plazas} plazas')
+                 except:
+                    st.subheader('')
           
 if __name__ == '__main__':
     c=Clase()
