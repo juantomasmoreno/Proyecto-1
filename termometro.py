@@ -70,7 +70,7 @@ def buscar_uni(clase):
                      st.subheader(f'{grado.nombre} en la {grado.uni}')
                      st.subheader(f'Nota de corte: {grado.nota}')
                      if grado.plazas != 0:
-                        st.subheader(f'{grado.plazas} plazas')
+                        st.subheader(f'Este grado tiene {grado.plazas} plazas')
                  except:
                     st.subheader('')
           
