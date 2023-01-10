@@ -1,0 +1,243 @@
+﻿ID;GRADO;UNIVERSIDAD;ABREVIATURA;NOTA DE CORTE;PLAZAS
+1;Grado en Diseño Arquitectónico de Interiores;Universitat Politècnica de València (Campus de Alcoy);UPV;8,74;250
+2;Grado en Bellas Artes;Universitat Politècnica de València (Campus de Vera);UPV;10,58;340
+3;Grado en Tecnologías Interactivas;Universitat Politècnica de València (Campus de Vera);UPV;7,37;55
+4;Doble grado en Ingeniería Forestal y del Medio Natural + Ciencias Ambientales;Universitat Politècnica de València (Campus de Valencia);UPV;11,63;10
+5;Doble grado en Ingeniería Forestal y del Medio Natural + Ciencias Ambientales;Universitat Politècnica de València (Campus de Gandia);UPV;8,74;5
+6;Grado en Ingeniería Forestal y del Medio Natural;Universitat Politècnica de València (Campus de Vera);UPV;7,39;75
+7;Grado en Ingeniería Informática;Universitat Politècnica de València (Campus de Alcoy);UPV;9,31;75
+8;Grado en Ingeniería Informática;Universitat Politècnica de València (Campus de Vera);UPV;10,47;400
+9;Grado en Ingeniería Eléctrica;Universitat Politècnica de València (Campus de Alcoy);UPV;5,45;65
+10;Grado en Ingeniería Eléctrica;Universitat Politècnica de València (Campus de Vera);UPV;10,12;75
+11;Doble grado en Matemáticas + Ingeniería de Tecnologías y Servicios de Telecomunicación;Universitat Politècnica de València (Campus de Vera);UPV;12,93;15
+12;Doble grado en Matemáticas + Ingeniería Civil;Universitat Politècnica de València (Campus de Alcoy);UPV;12,68;15
+13;Grado en Tecnología Digital y Multimedia;Universitat Politècnica de València (Campus de Vera);UPV;9,77;75
+14;Doble grado en Ingeniería Agroalimentaria y del Medio Rural + Ciencia y Tecnología de los Alimentos;Universitat Politècnica de València (Campus de Alcoy);UPV;11,2;15
+15;Grado en Ciencia de Datos;Universitat Politècnica de València (Campus de Vera);UPV;12,12;120
+16;Grado en Ingeniería Electrónica Industrial y Automática;Universitat Politècnica de València (Campus de Vera);UPV;10,52;150
+17;Grado en Turismo;Universitat Politècnica de València (Campus de Alcoy);UPV;5,13;50
+18;Grado en Comunicación Audiovisual;Universitat Politècnica de València (Campus de Vera);UPV;10,86;75
+19;Grado en Ingeniería Agroalimentaria y del Medio Rural;Universitat Politècnica de València (Campus de Vera);UPV;8,05;125
+20;Doble grado en Administración y Dirección de Empresas + Ingeniería de Tecnologías y Servicios de Telecomunicación;Universitat Politècnica de València (Campus de Vera);UPV;10,73;40
+21;Grado en Ingeniería Física;Universitat Politècnica de València (Campus de Vera);UPV;12,41;75
+22;Grado en Ingeniería Mecánica;Universitat Politècnica de València (Campus de Gandia);UPV;7,98;110
+23;Grado en Ingeniería Mecánica;Universitat Politècnica de València (Campus de Vera);UPV;11,67;150
+24;Grado en Conservación y Restauración de Bienes Culturales;Universitat Politècnica de València (Campus de Vera);UPV;8,89;110
+25;Grado en Ingeniería de la Energía;Universitat Politècnica de València (Campus de Vera);UPV;11,36;75
+26;Grado en Ingeniería de Sistemas de Telecomunicación, Sonido e Imagen;Universitat Politècnica de València (Campus de Vera);UPV;6,6;75
+27;Doble grado en Biotecnología + Ingeniería Agroalimentaria y del Medio Rural;Universitat Politècnica de València (Campus de Vera);UPV;12,42;15
+28;Grado en Administración y Dirección de Empresas;Universitat Politècnica de València (Campus de Vera);UPV;6,64;95
+29;Grado en Administración y Dirección de Empresas;Universitat Politècnica de València (Campus de Vera);UPV;11,59;135
+30;Grado en Ciencias Ambientales;Universitat Politècnica de València (Campus de Vera);UPV;8,65;40
+31;Grado en Biotecnología;Universitat Politècnica de València (Campus de Vera);UPV;12,93;100
+32;Grado en Ingeniería de Obras Públicas;Universitat Politècnica de València (Campus de Gandia);UPV;5;75
+33;Grado en Ingeniería Aeroespacial;Universitat Politècnica de València (Campus de Vera);UPV;13,34;120
+34;Grado en Ingeniería Civil;Universitat Politècnica de València (Campus de Vera);UPV;9,99;125
+35;Grado en Ingeniería Química;Universitat Politècnica de València (Campus de Alcoy);UPV;9,67;55
+36;Grado en Ingeniería Química;Universitat Politècnica de València (Campus de Vera);UPV;12,09;80
+37;Grado en Ciencia y Tecnología de los Alimentos;Universitat Politècnica de València (Campus de Vera);UPV;10,2;75
+38;Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación;Universitat Politècnica de València (Campus de Vera);UPV;9,3;165
+39;Doble grado en Administración y Dirección de Empresas + Ingeniería Informática;Universitat Politècnica de València (Campus de Alcoy);UPV;10,9;15
+40;Doble grado en Administración y Dirección de Empresas + Ingeniería Informática;Universitat Politècnica de València (Campus de Vera);UPV;12,12;45
+41;Grado en Diseño y Tecnologías Creativas;Universitat Politècnica de València (Campus de Gandia);UPV;12,24;100
+42;Doble grado en Administración y Dirección de Empresas + Turismo;Universitat Politècnica de València (Campus de Alcoy);UPV;8,47;15
+43;Doble grado en Administración y Dirección de Empresas + Turismo;Universitat Politècnica de València (Campus de Vera);UPV;8,65;20
+44;Grado en Ingeniería de Organización Industrial;Universitat Politècnica de València (Campus de Vera);UPV;11,84;80
+45;Doble grado en Administración y Dirección de Empresas + Ciencia y Tecnología de los Alimentos;Universitat Politècnica de València (Campus de Vera);UPV;10,05;20
+46;Grado en Ingeniería en Geomática y Topografía;Universitat Politècnica de València (Campus de Gandia);UPV;5,39;100
+47;Grado en Ingeniería en Tecnologías Industriales;Universitat Politècnica de València (Campus de Vera);UPV;12,8;275
+48;Doble grado en Ingeniería de Sistemas de Telecomunicación, Sonido e Imagen + Comunicación Audiovisual;Universitat Politècnica de València (Campus de Alcoy);UPV;11,24;15
+49;Grado en Ingeniería Biomédica;Universitat Politècnica de València (Campus de Vera);UPV;12,93;75
+50;Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos;Universitat Politècnica de València (Campus de Gandia);UPV;8,56;90
+51;Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos;Universitat Politècnica de València (Campus de Vera);UPV;11,41;140
+52;Grado en Gestión y Administración Pública;Universitat Politècnica de València (Campus de Gandia);UPV;7,83;80
+53;Grado en Fundamentos de la Arquitectura;Universitat Politècnica de València (Campus de Vera);UPV;11,94;360
+54;Grado en Arquitectura Técnica;Universitat Politècnica de València (Campus de Vera);UPV;8,16;200
+55;Doble grado en Administración de Empresas y Derecho;Universitat Jaume I;UJI;10,889;30
+56;Grado en Administración de Empresas;Universitat Jaume I;UJI;8,112;185
+57;Grado en Ciencias de la Actividad Física y el Deporte;Universitat Jaume I;UJI;10,766;60
+58;Grado en Criminología y Seguridad;Universitat Jaume I;UJI;9,824;90
+59;Grado en Comunicación Audiovisual;Universitat Jaume I;UJI;9,46;90
+60;Grado en Derecho;Universitat Jaume I;UJI;8,558;155
+61;Grado en Economía;Universitat Jaume I;UJI;7,816;80
+62;Grado en Finanzas y Contabilidad;Universitat Jaume I;UJI;6,49;140
+63;Grado en Gestión y Administración Pública;Universitat Jaume I;UJI;5,224;70
+64;Grado en Maestro o Maestra de Educación Infantil;Universitat Jaume I;UJI;9,212;144
+65;Grado en Maestro o Maestra de Educación Primaria;Universitat Jaume I;UJI;9,768;144
+66;Grado en Periodismo;Universitat Jaume I;UJI;9,142;90
+67;Grado en Publicidad y Relaciones Públicas;Universitat Jaume I;UJI;9,574;90
+68;Grado en Relaciones Laborales y Recursos Humanos;Universitat Jaume I;UJI;6,95;80
+69;Grado en Turismo;Universitat Jaume I;UJI;5;90
+70;Grado en Estudios Ingleses;Universitat Jaume I;UJI;8,522;70
+71;Grado en Historia y Patrimonio;Universitat Jaume I;UJI;7,498;50
+72;Grado en Humanidades: Estudios Interculturales;Universitat Jaume I;UJI;5;50
+73;Grado en Traducción e Interpretación;Universitat Jaume I;UJI;10,754;95
+74;Grado en Diseño y Desarrollo de Videojuegos;Universitat Jaume I;UJI;9,536;60
+75;Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos;Universitat Jaume I;UJI;7,67;120
+76;Grado en Ingeniería Eléctrica;Universitat Jaume I;UJI;6,71;80
+77;Grado en Arquitectura Técnica;Universitat Jaume I;UJI;7,011;60
+78;Grado en Ingeniería en Tecnologías Industriales;Universitat Jaume I;UJI;9,067;60
+79;Grado en Ingeniería Informática;Universitat Jaume I;UJI;9,356;90
+80;Grado en Ingeniería Mecánica;Universitat Jaume I;UJI;8,242;80
+81;Grado en Ingeniería Química;Universitat Jaume I;UJI;9,835;60
+82;Grado en Ingeniería Robótica;Universitat Jaume I;UJI;10,074;30
+83;Grado en Matemática Computacional;Universitat Jaume I;UJI;11,916;30
+84;Grado en Química;Universitat Jaume I;UJI;10,826;70
+85;Grado en Bioquímica y Biología Molecular;Universitat Jaume I;UJI;12,624;60
+86;Grado en Psicología;Universitat Jaume I;UJI;10,171;180
+87;Grado en Enfermería;Universitat Jaume I;UJI;12,23;120
+88;Grado en Medicina;Universitat Jaume I;UJI;13,356;80
+89;Doble Grado en Derecho + Administración y Dirección de Empresas;Universidad de Alicante;UA;10,415;130
+90;Doble Grado en Derecho + Criminología (DECRIM);Universidad de Alicante;UA;11,529;70
+91;Doble Grado en Derecho y en Relaciones Internacionales (DERRII);Universidad de Alicante;UA;12,942;60
+92;Doble Grado en Ingeniería Informática + Administración y Dirección de Empresas (I2ADE);Universidad de Alicante;UA;11,092;50
+93;Doble Grado en Turismo + ADE (TADE);Universidad de Alicante;UA;8,032;100
+94;Grado en Administración y Dirección de Empresas;Universidad de Alicante;UA;8,249;50
+95;Grado en Arquitectura Técnica;Universidad de Alicante;UA;7,79;370
+96;Grado en Biología;Universidad de Alicante;UA;11,234;60
+97;Grado en Ciencias de la Actividad Física y del Deporte;Universidad de Alicante;UA;10,996;160
+98;Grado en Ciencias del Mar;Universidad de Alicante;UA;10,864;100
+99;Grado en Criminología;Universidad de Alicante;UA;10,144;60
+100;Grado en Derecho;Universidad de Alicante;UA;9,27;240
+101;Grado en Economía;Universidad de Alicante;UA;8,868;240
+102;Grado en Enfermería;Universidad de Alicante;UA;12,467;125
+103;Grado en Español: Lengua y Literaturas;Universidad de Alicante;UA;9,407;200
+104;Grado en Estudios Árabes e Islámicos;Universidad de Alicante;UA;5;55
+105;Grado en Estudios Franceses;Universidad de Alicante;UA;5;50
+106;Grado en Estudios Ingleses;Universidad de Alicante;UA;9,598;50
+107;Grado en Filología Catalana;Universidad de Alicante;UA;5;125
+108;Grado en Física;Universidad de Alicante;UA;12,494;50
+109;Grado en Fundamentos de la Arquitectura;Universidad de Alicante;UA;9,631;70
+110;Grado en Gastronomía y Artes Culinarias;Universidad de Alicante;UA;7,77;120
+111;Grado en Geografía y Ordenación del Territorio;Universidad de Alicante;UA;5;75
+112;Grado en Geología;Universidad de Alicante;UA;6,846;50
+113;Grado en Gestión y Administración Pública;Universidad de Alicante;UA;6,036;50
+114;Grado en Historia;Universidad de Alicante;UA;7,456;125
+115;Grado en Humanidades;Universidad de Alicante;UA;5;50
+116;Grado en Ingeniería Biomédica;Universidad de Alicante;UA;12,43;60
+117;Grado en Ingeniería Civil;Universidad de Alicante;UA;7,066;75
+118;Grado en Ingeniería en Sonido e Imagen en Telecomunicación;Universidad de Alicante;UA;7,032;80
+119;Grado en Ingeniería Informática;Universidad de Alicante;UA;9,833;190
+120;Grado en Ingeniería Multimedia;Universidad de Alicante;UA;8,4;95
+121;Grado en Ingeniería Química;Universidad de Alicante;UA;10,722;60
+122;Grado en Ingeniería Robótica;Universidad de Alicante;UA;11,695;60
+123;Grado en Maestro en Educación Infantil;Universidad de Alicante;UA;9,048;360
+124;Grado en Maestro en Educación Primaria;Universidad de Alicante;UA;9,607;440
+125;Grado en Marketing;Universidad de Alicante;UA;10,743;75
+126;Grado en Matemáticas;Universidad de Alicante;UA;12,534;70
+127;Grado en Nutrición Humana y Dietética;Universidad de Alicante;UA;10,802;70
+128;Grado en Óptica y Optometría;Universidad de Alicante;UA;10,277;240
+129;Grado en Publicidad y Relaciones Públicas;Universidad de Alicante;UA;8,576;70
+130;Grado en Química;Universidad de Alicante;UA;11,38;60
+131;Grado en Relaciones Internacionales;Universidad de Alicante;UA;12,092;130
+132;Grado en Relaciones Laborales y Recursos Humanos;Universidad de Alicante;UA;6,128;60
+133;Grado en Sociología;Universidad de Alicante;UA;7,408;160
+134;Grado en Trabajo Social;Universidad de Alicante;UA;7,946;180
+135;Grado en Traducción e Interpretación: Alemán;Universidad de Alicante;UA;5;180
+136;Grado en Traducción e Interpretación: Francés;Universidad de Alicante;UA;8,013;180
+137;Grado en Traducción e Interpretación: Inglés;Universidad de Alicante;UA;11,75;240
+138;Grado en Turismo;Universidad de Alicante;UA;5;100
+139;Administración y Dirección de Empresas;Universidad Miguel Hernández (Campus de Elche);UMH;7,714;70
+140;Administración y Dirección de Empresas;Universidad Miguel Hernández (Campus de Orihuela);UMH;6,67;50
+141;Bellas Artes;Universidad Miguel Hernández (Campus de Altea);UMH;8,944;110
+142;Biotecnología;Universidad Miguel Hernández (Campus de Elche);UMH;12,224;75
+143;Ciencia y Tecnología de los Alimentos;Universidad Miguel Hernández (Campus de Orihuela);UMH;9,078;50
+144;Ciencias Ambientales;Universidad Miguel Hernández (Campus de Elche);UMH;8,268;75
+145;Ciencias de la Actividad Física y del Deporte;Universidad Miguel Hernández (Campus de Elche);UMH;9,932;150
+146;Ciencias Políticas y Gestión Pública;Universidad Miguel Hernández (Campus de Orihuela);UMH;8,882;50
+147;Comunicación Audiovisual;Universidad Miguel Hernández (Campus de Elche);UMH;10,204;85
+148;Derecho;Universidad Miguel Hernández (Campus de Elche);UMH;8,311;100
+149;Derecho - Semipresencial;Universidad Miguel Hernández (Campus de Elche);UMH;6,502;80
+150;Derecho y Administración y Dirección de Empresas;Universidad Miguel Hernández (Campus de Elche);UMH;8,49;60
+151;Comunicación Audiovisual y Periodismo;Universidad Miguel Hernández (Campus de Elche);UMH;11,028;50
+152;Estadística Empresarial;Universidad Miguel Hernández (Campus de Elche);UMH;8,788;50
+153;Farmacia;Universidad Miguel Hernández (Campus de Sant Joan d'Alacant);UMH;11,974;125
+154;Fisioterapia;Universidad Miguel Hernández (Campus de Sant Joan d'Alacant);UMH;11,624;125
+155;Ingeniería Agroalimentaria y Agroambiental;Universidad Miguel Hernández (Campus de Orihuela);UMH;6,8;70
+156;Ingeniería de Tecnologías de Telecomunicación;Universidad Miguel Hernández (Campus de Elche);UMH;5,986;75
+157;Ingeniería Eléctrica;Universidad Miguel Hernández (Campus de Elche);UMH;6,59;50
+158;Ingeniería Electrónica y Automática Industrial;Universidad Miguel Hernández (Campus de Elche);UMH;7,8;75
+159;Ingeniería Informática en Tecnologías de la Información;Universidad Miguel Hernández (Campus de Elche);UMH;8,913;50
+160;Ingeniería Mecánica;Universidad Miguel Hernández (Campus de Elche);UMH;7,538;125
+161;Medicina;Universidad Miguel Hernández (Campus de Sant Joan d'Alacant);UMH;13,43;130
+162;Periodismo;Universidad Miguel Hernández (Campus de Elche);UMH;8,784;85
+163;Podología;Universidad Miguel Hernández (Campus de Sant Joan d'Alacant);UMH;10,34;80
+164;Psicología;Universidad Miguel Hernández (Campus de Elche);UMH;10,804;135
+165;Terapia Ocupacional;Universidad Miguel Hernández (Campus de Sant Joan d'Alacant);UMH;9,5;100
+166;Relaciones Laborales y Recursos Humanos;Universidad Miguel Hernández (Campus de Elche);UMH;8,444;75
+167;Seguridad Pública y Privada - Online;Universidad Miguel Hernández (Campus de Elche);UMH;6,43;100
+168;Grado en Ingeniería Electrónica Industrial;Universitat de València;UV;9,028;50
+169;Grado en Ingeniería Electrónica de Telecomunicación;Universitat de València;UV;7,185;64
+170;Grado en Ingeniería Informática;Universitat de València;UV;10,048;50
+171;Grado en Ingeniería Multimedia;Universitat de València;UV;9,042;50
+172;Grado en Ingeniería Química;Universitat de València;UV;11,147;48
+173;Grado en Ingeniería Telemática;Universitat de València;UV;7,066;64
+174;Grado en Estudios Hispánicos, Lengua Española y sus Literaturas;Universitat de València;UV;10,581;80
+175;Grado en Estudios Ingleses;Universitat de València;UV;9,765;160
+176;Grado en Filología Catalana;Universitat de València;UV;7,612;70
+177;Grado en Filología Clásica;Universitat de València;UV;10,83;0
+178;Grado en Filosofía;Universitat de València;UV;8,804;0
+179;Grado en Historia;Universitat de València;UV;7,658;220
+180;Grado en Historia del Arte;Universitat de València;UV;6,11;180
+181;Grado en Lenguas Modernas y sus Literaturas - Lengua B Inglés;Universitat de València;UV;7,522;50
+182;Grado en Lenguas Modernas y sus Literaturas - Lengua B Francés;Universitat de València;UV;7,522;25
+183;Grado en Lenguas Modernas y sus Literaturas - Lengua B Alemán;Universitat de València;UV;7,522;25
+184;Grado en Biología;Universitat de València;UV;11,928;128
+185;Grado en Bioquímica y Ciencias Biomédicas;Universitat de València;UV;13,289;80
+186;Grado en Biotecnología;Universitat de València;UV;12,578;80
+187;Grado en Ciencias Ambientales;Universitat de València;UV;9,734;80
+188;Grado en Ciencias Gastronómicas;Universitat de València;UV;8,592;50
+189;Grado en Física;Universitat de València;UV;13,202;57
+190;Grado en Matemáticas;Universitat de València;UV;12,881;85
+191;Grado en Química;Universitat de València;UV;11,18;160
+192;Grado en Ciencia y Tecnología de los Alimentos;Universitat de València;UV;10,153;64
+193;Grado en Enfermería;Universitat de València;UV;12,495;260
+194;Grado en Farmacia;Universitat de València;UV;12,23;208
+195;Grado en Fisioterapia;Universitat de València;UV;11,974;160
+196;Grado en Logopedia;Universitat de València;UV;9,308;80
+197;Grado en Medicina;Universitat de València;UV;13,435;320
+198;Grado en Nutrición Humana y Dietética;Universitat de València;UV;11,022;144
+199;Grado en Odontología;Universitat de València;UV;13,121;80
+200;Grado en Óptica y Optometría;Universitat de València;UV;11,157;50
+201;Grado en Podología;Universitat de València;UV;11,302;60
+202;Grado en Psicología;Universitat de València;UV;10,752;450
+203;Grado en Administración y Dirección de Empresas (ADE);Universitat de València;UV;10,198;440
+204;Grado en Ciencias de la Actividad Física y del Deporte;Universitat de València;UV;10,522;150
+205;Grado en Ciencias Políticas y de la Administración Pública;Universitat de València;UV;8,836;0
+206;Grado en Comunicación Audiovisual;Universitat de València;UV;10,95;0
+207;Grado en Criminología;Universitat de València;UV;10,744;100
+208;Grado en Derecho;Universitat de València;UV;9,845;560
+209;Grado en Economía;Universitat de València;UV;9,806;210
+210;Grado en Educación Social;Universitat de València;UV;9,03;160
+211;Grado en Finanzas y Contabilidad;Universitat de València;UV;9,368;140
+212;Grado en Geografía y Medio Ambiente;Universitat de València;UV;7,72;80
+213;Grado en Información y Documentación;Universitat de València;UV;5,132;50
+214;Grado en Negocios Internacionales - International Business;Universitat de València;UV;12,73;150
+215;Grado en Maestro o Maestra en Educación Infantil;Universitat de València;UV;9,736;300
+216;Grado en Maestro o Maestra en Educación Primaria;Universitat de València;UV;10,28;500
+217;Grado en Pedagogía;Universitat de València;UV;9,186;160
+218;Grado en Periodismo;Universitat de València;UV;11,176;0
+219;Grado en Relaciones Laborales y Recursos Humanos;Universitat de València;UV;8,149;250
+220;Grado en Sociología;Universitat de València;UV;7,944;75
+221;Grado en Trabajo Social;Universitat de València;UV;6,73;230
+222;Grado en Turismo;Universitat de València;UV;7,746;150
+223;Doble Grado en ADE y Derecho;Universitat de València;UV;12,43;100
+224;Doble Grado en Turismo y ADE;Universitat de València;UV;11,142;60
+225;Doble Grado en Derecho y Criminología;Universitat de València;UV;11,864;90
+226;Doble Grado en Derecho y Ciencias Políticas y de la Administración Pública;Universitat de València;UV;12,17;0
+227;Doble Grado en Farmacia y Nutrición Humana y Dietética;Universitat de València;UV;12,83;48
+228;Doble Grado en Sociología y Ciencias Políticas y de la Administración Pública;Universitat de València;UV;10,782;0
+229;Grado en Ciencia de Datos;Universitat de València;UV;11,338;65
+230;Doble Grado en Derecho y Economía;Universitat de València;UV;12,144;5
+231;Doble Grado en Física y Química;Universitat de València;UV;12,975;20
+232;Grado en Traducción y Mediación Interlingüística;Universitat de València;UV;8,524;50
+233;Grado en Administración y Dirección de Empresas (ADE);Universitat de València (Ontinyent);UV;7,151;70
+234;Grado en Administración y Dirección de Empresas (ADE);Universitat de València (Florida);UV;7,314;50
+235;Doble Grado en Física y Matemáticas;Universitat de València;UV;13,624;30
+236;Grado en Maestro o Maestra en Educación Infantil;Universitat de València (Florida);UV;7,143;80
+237;Grado en Enfermería;Universitat de València (La Fe);UV;12,909;65
+238;Grado en Enfermería;Universitat de València (Ontinyent);UV;12,229;65
+239;Grado en Administración y Dirección de Empresas (ADE);Universitat de València (EDEM);UV;7,724;50
+240;Grado en Inteligencia y Analítica de Negocios (BIA);Universitat de València;UV;12,036;50
+241;Grado en Maestro o Maestra en Educación Primaria;Universitat de València (Florida);UV;7,466;80
+242;Doble Grado en Química y en Ingeniería Química;Universitat de València;UV;12,439;20
