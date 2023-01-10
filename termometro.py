@@ -63,7 +63,7 @@ def buscar_uni(clase):
         else:    
             elec = 0
             if elec < 1 or elec > len(dic):
-                 opcion = st.selectbox('¿Quieres más información sobre algún grado? Escribe aquí su número', listainfo)
+                 opcion = st.selectbox('¿Quieres más información sobre algún grado?', listainfo)
                  try:
                      opcion = opcion.split('-')
                      grado=dic[int(opcion[0])]
