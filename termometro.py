@@ -67,7 +67,7 @@ def buscar_uni(clase):
                  try:
                      opcion = opcion.split('-')
                      grado=dic[int(opcion[0])]
-                     st.subheader(f'{grado.nombre} en la {grado.uni}')
+                     st.subheader(f'{grado.nombre} en la {grado.uni_a}')
                      st.subheader(f'Nota de corte: {grado.nota}')
                      if grado.plazas != 0:
                         st.subheader(f'Este grado tiene {grado.plazas} plazas')
