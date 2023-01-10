@@ -46,7 +46,7 @@ def buscar_uni(clase):
     texto = st.text_input('¿Qué quieres estudiar?').lower()
     n = 1
     dic = {}
-    listainfo = []
+    listainfo = ['Elige un grado']
     if len(texto) < 3:
         st.caption('Mínimo 3 caracteres')
     else:
@@ -66,10 +66,10 @@ def buscar_uni(clase):
                  opcion = st.selectbox('¿Quieres más información sobre algún grado? Escribe aquí su número', listainfo)
                  try:
                      grado=dic[int(opcion[0])]
+                     st.subheader(f'{grado.nombre} en la {grado.uni})
+                     st.subheader(f'Nota de corte: {grado.nota}')
                      if grado.plazas != 0:
-                        st.subheader(f'{grado.nombre} en la {grado.uni}\nNota de corte: {grado.nota}\n{grado.plazas} plazas')
-                     else:
-                        st.subheader(f'{grado.nombre} en la {grado.uni}\nNota de corte: {grado.nota}')
+                        st.subheader(f'{grado.plazas} plazas')
                  except:
                      st.subheader('Vuelve a elegir')
                      
